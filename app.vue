@@ -35,7 +35,7 @@ import Menu from "./components/Menu.vue";
 <style>
 html,
 body {
-  height: calc(100vh - 64px); /* 修正為 64px 而非 64xpx */
+  height: calc(100vh - 64);
   margin: 0;
   font-family: Noto Serif, sans-serif, serif;
   padding-right: 0 !important; /* 側欄開啟的偏移 */
