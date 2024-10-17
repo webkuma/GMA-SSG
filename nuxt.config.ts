@@ -8,6 +8,13 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
+      title: 'GMA 金曲獎資訊網站',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { hid: 'description', name: 'description', content: '使用 nuxt3-SSR 製作的金曲獎資訊網站' },
+        { name: 'google-site-verification', content: 'WSuMpNl6jpCuKxa13V4eZYtUYtAJ7G7JY302Tax3cG0' }
+      ],
       link: [
         {
           rel: 'stylesheet',
