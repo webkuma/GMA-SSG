@@ -7,7 +7,8 @@ export default defineNuxtConfig({
     url: 'https://gma-nuxt.netlify.app/',
     name: '金曲獎 - 歷屆入圍與獲獎歌曲資訊平台',
     sources: [
-      '/api/__sitemap__/urls',
+      'https://gma-nuxt.netlify.app/awards/2024',
+      // '/api/__sitemap__/urls',
     ]
   },
   plugins: [
