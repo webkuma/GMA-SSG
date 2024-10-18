@@ -18,7 +18,7 @@ export default defineNuxtConfig({
       ],
       link: [
         { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css' },
-        { rel: 'icon', type: 'image/png', href: 'https://upload.wikimedia.org/wikipedia/zh/thumb/a/a5/Emblem_of_Golden_Melody_Awards.svg/1200px-Emblem_of_Golden_Melody_Awards.svg.png' },
+        { rel: 'icon', type: 'image/png', href: 'https://upload.wikimedia.org/wikipedia/zh/thumb/a/a5/Emblem_of_Golden_Melody_Awards.svg/32px-Emblem_of_Golden_Melody_Awards.svg.png' },
         { rel: 'preconnect', href: 'https://res.cloudinary.com' },
         { rel: 'dns-prefetch', href: 'https://res.cloudinary.com' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
