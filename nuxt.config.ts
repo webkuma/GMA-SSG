@@ -2,7 +2,10 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: false },
-  modules: ['@pinia/nuxt', '@nuxtjs/tailwindcss', 'nuxt-aos'],
+  modules: ['@pinia/nuxt', '@nuxtjs/tailwindcss', 'nuxt-aos', '@nuxtjs/sitemap', '@nuxtjs/seo'],
+  site: {
+    strictNuxtContentPaths: true
+  },
   app: {
     head: {
       title: '金曲獎 - 歷屆入圍與獲獎歌曲資訊平台',
