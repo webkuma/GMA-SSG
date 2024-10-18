@@ -2,7 +2,11 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: false },
-  modules: ['@pinia/nuxt', '@nuxtjs/tailwindcss'],
+  modules: ['@pinia/nuxt', '@nuxtjs/tailwindcss', '@nuxtjs/sitemap'],
+  site: {
+    url: 'https://gma-nuxt.netlify.app/',
+    name: '金曲獎 - 歷屆入圍與獲獎歌曲資訊平台'
+  },
   plugins: [
     '~/plugins/bootstrap.client.js'
   ],
@@ -31,6 +35,6 @@ export default defineNuxtConfig({
           tagPosition: 'bodyClose'
         }
       ]
-    }
+    },
   }
 })
