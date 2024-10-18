@@ -7,15 +7,9 @@ export default defineNuxtConfig({
   site: {
     url: 'https://gma-nuxt.netlify.app/',
     name: '金曲獎 - 歷屆入圍與獲獎歌曲資訊平台',
-    routes: async () => {
+    sources: async () => {
       const years = await fetchShortlistYear();
-      const dynamicRoutes = years.map(year => `/awards/${year}`);
-      return [
-        ...dynamicRoutes,
-        '/favorite',
-        '/search'
-        // 其他靜態路由...
-      ];
+      return years.map(year => `https://gma-nuxt.netlify.app/awards/${year}`);
     }
   },
   plugins: [
