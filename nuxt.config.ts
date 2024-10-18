@@ -2,25 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: false },
-  modules: ['@pinia/nuxt', '@nuxtjs/tailwindcss', '@nuxtjs/sitemap'],
-  site: {
-    url: 'https://gma-nuxt.netlify.app/',
-    hostname: 'https://gma-nuxt.netlify.app',
-    name: '金曲獎 - 歷屆入圍與獲獎歌曲資訊平台',
-    sources: [
-      'https://gma-nuxt.netlify.app/awards/2024',
-      // '/api/__sitemap__/urls',
-    ],
-    routes: [
-      '/awards/2024',
-      '/awards/2023',
-      '/awards/2024/年度歌曲獎',
-      '/awards/2023/年度歌曲獎',
-      '/search/周杰倫',
-      '/search/蔡健雅',
-      '/Favorite',
-    ],
-  },
+  modules: ['@pinia/nuxt', '@nuxtjs/tailwindcss'],
   plugins: [
     '~/plugins/bootstrap.client.js'
   ],
