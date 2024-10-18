@@ -1,0 +1,7 @@
+# robots.txt 檔案
+
+# 允許所有爬蟲抓取網站的所有內容
+User-agent: *
+
+# 告訴搜尋引擎你的 Sitemap 位置
+Sitemap: https://gma-nuxt.netlify.app/sitemap.xml
