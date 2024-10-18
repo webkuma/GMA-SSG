@@ -1,4 +1,3 @@
-import { fetchShortlistYear } from './lib/frontendQuery';
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
@@ -7,10 +6,9 @@ export default defineNuxtConfig({
   site: {
     url: 'https://gma-nuxt.netlify.app/',
     name: '金曲獎 - 歷屆入圍與獲獎歌曲資訊平台',
-    sources: async () => {
-      const years = await fetchShortlistYear();
-      return years.map(year => `https://gma-nuxt.netlify.app/awards/${year}`);
-    }
+    sources: [
+      '/api/__sitemap__/urls',
+    ]
   },
   plugins: [
     '~/plugins/bootstrap.client.js'
