@@ -28,7 +28,7 @@ onMounted(async () => {
     <!-- text -->
     <div class="absolute inset-0 col-span-1">
       <div
-        class="absolute flex flex-col items-center justify-center gap-8 w-full h-full text-gray-50">
+        class="absolute gap-8 flex flex-col items-center justify-center w-full h-full text-gray-50">
         <p
           data-aos="fade-down"
           class="text-2xl [&>span:nth-child(2)]:px-2 [&>span:nth-child(n)]:first-letter:text-main [&>span:nth-child(n)]:first-letter:text-4xl [&>span:nth-child(n)]:font-extrabold [&>span:nth-child(n)]:inline-block">
@@ -42,13 +42,19 @@ onMounted(async () => {
             Awards
           </span>
         </p>
-        <p class="px-2 text-center text-2xl font-semibold text-accent">
+        <p
+          data-aos="fade-down"
+          class="px-2 text-center text-2xl font-semibold text-accent">
           Discover and Explore the Music
         </p>
-        <p class="px-2 text-center text-2xl font-semibold text-accent">
+        <p
+          data-aos="fade-down"
+          class="px-2 text-center text-2xl font-semibold text-accent">
           The Artists, Awards, and Works
         </p>
-        <BannerBtn></BannerBtn>
+        <div class="h-32">
+          <BannerBtn></BannerBtn>
+        </div>
       </div>
     </div>
   </div>
