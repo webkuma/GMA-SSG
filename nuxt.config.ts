@@ -9,7 +9,7 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { hid: 'description', name: 'description', content: '使用 nuxt3-SSR 製作的金曲獎資訊網站，提供歷屆入圍作品與獲獎歌曲，音樂試聽、獎項介紹與收藏功能。' },
+        { hid: 'description', name: 'description', content: '提供金曲獎最新入圍名單、最新得獎名單、歷屆入圍名單、歷屆得獎名單、歷屆入圍音樂試聽、搜尋及收藏功能；使用 nuxt3-SSR 製成的金曲獎資訊網站。' },
         { name: 'keywords', content: '金曲獎, 歷屆入圍, 獲獎歌曲, 音樂試聽, 獎項詳細介紹, 歌曲搜尋, 收藏歌曲, 獲獎排行榜' },
         { name: 'google-site-verification', content: 'WSuMpNl6jpCuKxa13V4eZYtUYtAJ7G7JY302Tax3cG0' }
       ],
